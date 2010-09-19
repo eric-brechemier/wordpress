@@ -52,7 +52,9 @@
 	 * the rest of the loop that is shared.
 	 *
 	 * Without further ado, the loop:
-	 */ ?>
+	 */
+   // enz> here is The Loop - it is actually a while loop on posted messages.
+?>
 <?php while ( have_posts() ) : the_post(); ?>
 
 <?php /* How to display posts in the Gallery category. */ ?>
